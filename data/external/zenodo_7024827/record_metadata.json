@@ -1,0 +1,157 @@
+{
+  "created": "2022-08-26T11:42:47.458727+00:00",
+  "modified": "2025-04-24T07:26:27.304516+00:00",
+  "id": 7024827,
+  "conceptrecid": "7024826",
+  "doi": "10.5281/zenodo.7024827",
+  "conceptdoi": "10.5281/zenodo.7024826",
+  "doi_url": "https://doi.org/10.5281/zenodo.7024827",
+  "metadata": {
+    "title": "Bamboo biomass",
+    "doi": "10.5281/zenodo.7024827",
+    "publication_date": "2022-08-26",
+    "description": "<p>Our study assumed that above-ground bamboo biomass carbon and sequestration rate varies across an elevation gradient, between species and between ecosystem management options. We laid out 60 destructive sampling plots, where one bamboo culm was randomly harvested from each plot.&nbsp;</p>\n\n<ol>\n\t<li>The excel file &quot;Rawdata.xlsx&quot; contains the recorded raw data. The columns show data on location, Species, Management option, elevation, Age of bamboo culms, Diameter at Breast Height (DBH) of every culm in the plot, DBH of the harvested culm ( measured before harvesting), Length of harvested culm (measured on the ground), Fresh weight of each culm&#39;s component (i.e. stem, branches, foliage), fresh weights of the component&#39;s sub-samples of up to 300g taken for oven-dry weight measurements, and the oven-dry weight of the sub-samples. Due to variabilities of carbon content along the stem, we took four sub-samples from each quarter (i.e., at 0.0, 0.25, 0.5, and 0.75 part of the stem).</li>\n\t<li>The excel file &quot;analyses.csv&quot; contains data imported to R studio software for analysis.</li>\n\t<li>The file &quot;R.script.r&quot; is an r script showing the maths algorithms in an r programming language using&nbsp; R-Studio, Version 4.0.0.</li>\n\t<li>The file &quot;library&quot; contains all the packages used in r script.</li>\n</ol>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Masisi, Bhoke",
+        "affiliation": "Bern University of Applied Sciences (BFH), School of Agricultural, Forest and Food Science",
+        "orcid": "0000-0001-6344-2920"
+      }
+    ],
+    "contributors": [
+      {
+        "name": "Zabel, Astrid",
+        "affiliation": "Centre for Development and Envirinment (CDE), University of Bern",
+        "type": "Supervisor"
+      },
+      {
+        "name": "Blaser, Jürgen",
+        "affiliation": "Bern University of Applied Sciences (BFH), School of Agricultural, Forest and Food Science",
+        "type": "Supervisor"
+      }
+    ],
+    "keywords": [
+      "Bamboo",
+      "Biomass",
+      "Carbon sequestration and storage",
+      "Africa"
+    ],
+    "language": "eng",
+    "resource_type": {
+      "title": "Dataset",
+      "type": "dataset"
+    },
+    "thesis": {
+      "university": "Bern University of Applied Sciences (BFH), School of Agricultural, Forest and Food Science"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 0,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7024826"
+          }
+        }
+      ]
+    }
+  },
+  "title": "Bamboo biomass",
+  "links": {
+    "self": "https://zenodo.org/api/records/7024827",
+    "self_html": "https://zenodo.org/records/7024827",
+    "preview_html": "https://zenodo.org/records/7024827?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.7024827",
+    "self_doi": "https://doi.org/10.5281/zenodo.7024827",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7024827",
+    "reserve_doi": "https://zenodo.org/api/records/7024827/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/7024826",
+    "parent_html": "https://zenodo.org/records/7024826",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7024826",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7024826",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7024827/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7024827/sequence/default",
+    "files": "https://zenodo.org/api/records/7024827/files",
+    "media_files": "https://zenodo.org/api/records/7024827/media-files",
+    "latest": "https://zenodo.org/api/records/7024827/versions/latest",
+    "latest_html": "https://zenodo.org/records/7024827/latest",
+    "versions": "https://zenodo.org/api/records/7024827/versions",
+    "draft": "https://zenodo.org/api/records/7024827/draft",
+    "access_links": "https://zenodo.org/api/records/7024827/access/links",
+    "access_grants": "https://zenodo.org/api/records/7024827/access/grants",
+    "access_users": "https://zenodo.org/api/records/7024827/access/users",
+    "access_request": "https://zenodo.org/api/records/7024827/access/request",
+    "access": "https://zenodo.org/api/records/7024827/access",
+    "communities": "https://zenodo.org/api/records/7024827/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7024827/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/7024827/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/7024827/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/7024827/quota-increase",
+    "requests": "https://zenodo.org/api/records/7024827/requests"
+  },
+  "updated": "2025-04-24T07:26:27.304516+00:00",
+  "recid": "7024827",
+  "revision": 7,
+  "files": [
+    {
+      "id": "6bedcc94-67e1-4fa6-9f6a-bd1a96be9a32",
+      "key": "RAWDATA.xlsx",
+      "size": 197331,
+      "checksum": "md5:91a7339f1e03523fcbc937eacc3ee081",
+      "links": {
+        "self": "https://zenodo.org/api/records/7024827/files/RAWDATA.xlsx/content"
+      }
+    },
+    {
+      "id": "9337af56-73d8-4131-b1ec-7418e11d3a37",
+      "key": "R_SCRIPT.R",
+      "size": 24063,
+      "checksum": "md5:856f699561df07e187af46f7c2b8b661",
+      "links": {
+        "self": "https://zenodo.org/api/records/7024827/files/R_SCRIPT.R/content"
+      }
+    },
+    {
+      "id": "a02d5f01-2568-48c4-aa4a-4cd67fe38eb1",
+      "key": "library.R",
+      "size": 3522,
+      "checksum": "md5:f5faf835ffe86f4fc0a361b9099056a7",
+      "links": {
+        "self": "https://zenodo.org/api/records/7024827/files/library.R/content"
+      }
+    },
+    {
+      "id": "8a49c343-f578-45b6-ab36-9024b215c9d1",
+      "key": "analyses.csv",
+      "size": 281483,
+      "checksum": "md5:3cde02eeb278c1126cd5277072aaaabc",
+      "links": {
+        "self": "https://zenodo.org/api/records/7024827/files/analyses.csv/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "396085"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 422,
+    "unique_downloads": 370,
+    "views": 370,
+    "unique_views": 342,
+    "version_downloads": 420,
+    "version_unique_downloads": 369,
+    "version_unique_views": 341,
+    "version_views": 369
+  },
+  "state": "done",
+  "submitted": true
+}

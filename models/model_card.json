@@ -1,0 +1,135 @@
+{
+  "selected_model": "Linear regression",
+  "selection": {
+    "best_by_cv_mse": "Linear regression",
+    "selected": "Linear regression",
+    "baseline_minus_selected_mse": {
+      "mean": 19.442579516954584,
+      "ci95": [
+        9.98750981456466,
+        31.18787976965644
+      ]
+    },
+    "beats_baseline_reliably": true
+  },
+  "n_train": 59,
+  "target": "agb_dry_kg",
+  "target_unit": "kg dry mass per culm",
+  "features": [
+    "dbh_cm",
+    "height_m",
+    "age_years",
+    "species"
+  ],
+  "feature_units": {
+    "dbh_cm": "cm (assumed)",
+    "height_m": "m (assumed)",
+    "age_years": "years (assumed)",
+    "species": "category"
+  },
+  "training_ranges": {
+    "dbh_cm": [
+      3.0,
+      10.3
+    ],
+    "height_m": [
+      4.2,
+      18.0
+    ],
+    "age_years": [
+      0.5,
+      5.0
+    ]
+  },
+  "species": [
+    "Bambusa vulgaris",
+    "Oxytenanthera abyssinica"
+  ],
+  "interval_log_ratio_q10_q90": [
+    -0.47941638341164855,
+    0.49012878327635945
+  ],
+  "interval_note": "Empirical 80% range from cross-validated errors (y/yhat on a log scale). Approximate (n=59).",
+  "cv": {
+    "folds": 5,
+    "repeats": 20,
+    "seed": 42
+  },
+  "cv_results": {
+    "Baseline (mean)": {
+      "MAE": 4.156971219318461,
+      "MAE_sd_across_repeats": 0.04807218360321248,
+      "MSE": 27.03176149773311,
+      "MSE_sd_across_repeats": 0.582866369553679,
+      "RMSE": 5.1989232315854945,
+      "RMSE_sd_across_repeats": 0.05580727941345678,
+      "R2": -0.03881792644846105,
+      "R2_sd_across_repeats": 0.022399281432956986,
+      "RMSE_ci95_bootstrap_over_plots": [
+        4.088498788898525,
+        6.308972050204466
+      ]
+    },
+    "Linear regression": {
+      "MAE": 2.1158924117062723,
+      "MAE_sd_across_repeats": 0.06405123206709587,
+      "MSE": 7.589181980778531,
+      "MSE_sd_across_repeats": 0.5210266860942945,
+      "RMSE": 2.7533380809607833,
+      "RMSE_sd_across_repeats": 0.09353520423501074,
+      "R2": 0.7083512930012529,
+      "R2_sd_across_repeats": 0.02002281137757811,
+      "RMSE_ci95_bootstrap_over_plots": [
+        2.176614166699113,
+        3.366056373205941
+      ]
+    },
+    "Allometric log-log linear": {
+      "MAE": 2.189746737041573,
+      "MAE_sd_across_repeats": 0.09918462191726006,
+      "MSE": 10.341861681301427,
+      "MSE_sd_across_repeats": 1.5343041767750982,
+      "RMSE": 3.207669105814265,
+      "RMSE_sd_across_repeats": 0.2355745248181607,
+      "R2": 0.6025671020999768,
+      "R2_sd_across_repeats": 0.05896259049164746,
+      "RMSE_ci95_bootstrap_over_plots": [
+        2.1881971365510813,
+        4.244678781621887
+      ]
+    },
+    "Random forest": {
+      "MAE": 2.5397683553378734,
+      "MAE_sd_across_repeats": 0.11924029241201187,
+      "MSE": 9.80739959833537,
+      "MSE_sd_across_repeats": 1.0422712220557573,
+      "RMSE": 3.12752282561997,
+      "RMSE_sd_across_repeats": 0.16543586310569447,
+      "R2": 0.6231062294830992,
+      "R2_sd_across_repeats": 0.04005399462346036,
+      "RMSE_ci95_bootstrap_over_plots": [
+        2.5890493932885508,
+        3.7332467478381783
+      ]
+    },
+    "Extra trees": {
+      "MAE": 2.3672168873410078,
+      "MAE_sd_across_repeats": 0.11854941736325815,
+      "MSE": 8.697962580405601,
+      "MSE_sd_across_repeats": 0.9308087606619146,
+      "RMSE": 2.945200492019363,
+      "RMSE_sd_across_repeats": 0.1581359914906882,
+      "R2": 0.6657413741660536,
+      "R2_sd_across_repeats": 0.03577054446681025,
+      "RMSE_ci95_bootstrap_over_plots": [
+        2.4181504787499026,
+        3.51899321865512
+      ]
+    }
+  },
+  "versions": {
+    "python": "3.13.1",
+    "sklearn": "1.9.1",
+    "pandas": "3.1.0"
+  }
+}

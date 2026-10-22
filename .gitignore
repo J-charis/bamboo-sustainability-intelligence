@@ -1,0 +1,23 @@
+# environment and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# secrets and local settings
+.env
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# archives and large temporary files
+*.zip
+*.log

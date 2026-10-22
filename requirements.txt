@@ -1,0 +1,7 @@
+pandas>=2.0
+numpy>=1.26
+scikit-learn>=1.4     # models, cross-validation, MAE/MSE/R2 (also installs joblib)
+matplotlib>=3.8
+streamlit>=1.35
+openpyxl>=3.1         # reads the Excel workbook in data/external/
+pytest>=8.0
